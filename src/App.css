@@ -1,6 +1,39 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* height: 500px; */
+  border-right-width: 1px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  border-left: solid  #cfcdcd;
+  border-bottom: solid  #cfcdcd;
+  padding-left: 30px;
 }
+
+.Desktop{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 767.98px) { 
+  .Desktop{
+    display: none;
+  }
+  .Mobile{
+    display: block;
+  }
+ }
+
+ @media (min-width: 1199.98px) { 
+  .Mobile{
+    display: none;
+  }
+ }
+
+ /* .Mobile{
+  display: none;
+} */
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,51 @@
+.CircularProgress{
+  width: 400px;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 400px;
+  border-bottom: solid #e6e6e6;
+}
+.CircularProgressContent {
+  position: absolute;
+  top: 0px;
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.CircularProgressContainer {
+  position: relative;
+  width: 250px;
+  align-self: center;
+  text-align: center;
+}
+.CircularProgressFooterHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.FooterContent {
+  width: 400px;
+}
+
+.CircularProgressbar {
+  height: 250px;
+}
+
+.CircularProgressFooterContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .FooterContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
